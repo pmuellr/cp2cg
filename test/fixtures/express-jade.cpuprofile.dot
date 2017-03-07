@@ -1,0 +1,59 @@
+digraph g {
+    graph [
+        rankdir = "LR"
+    ];
+    "(app)" [
+        shape = "record"
+        label = "(app) | <index.js> index.js"
+    ];
+    "express" [
+        shape = "record"
+        label = "express | <lib/express.js> lib/express.js | <lib/router/index.js> lib/router/index.js | <lib/router/layer.js> lib/router/layer.js | <lib/middleware/query.js> lib/middleware/query.js | <lib/utils.js> lib/utils.js | <lib/middleware/init.js> lib/middleware/init.js | <lib/router/route.js> lib/router/route.js | <lib/response.js> lib/response.js | <lib/application.js> lib/application.js | <lib/view.js> lib/view.js | <lib/request.js> lib/request.js"
+    ];
+    "qs" [
+        shape = "record"
+        label = "qs | <lib/parse.js> lib/parse.js | <lib/utils.js> lib/utils.js"
+    ];
+    "jade" [
+        shape = "record"
+        label = "jade | <lib/index.js> lib/index.js | <lib/parser.js> lib/parser.js | <lib/lexer.js> lib/lexer.js | <lib/nodes/tag.js> lib/nodes/tag.js | <lib/nodes/block.js> lib/nodes/block.js | <lib/utils.js> lib/utils.js | <lib/compiler.js> lib/compiler.js | <lib/runtime.js> lib/runtime.js"
+    ];
+    "with" [
+        shape = "record"
+        label = "with | <index.js> index.js"
+    ];
+    "acorn-globals" [
+        shape = "record"
+        label = "acorn-globals | <index.js> index.js"
+    ];
+    "acorn" [
+        shape = "record"
+        label = "acorn | <dist/acorn.js> dist/acorn.js | <dist/walk.js> dist/walk.js"
+    ];
+    "content-type" [
+        shape = "record"
+        label = "content-type | <index.js> index.js"
+    ];
+    "etag" [
+        shape = "record"
+        label = "etag | <index.js> index.js"
+    ];
+    "parseurl" [
+        shape = "record"
+        label = "parseurl | <index.js> index.js"
+    ];
+    "(app)":"index.js" -> "express":"lib/router/index.js";
+    "(app)":"index.js" -> "express":"lib/response.js";
+    "express":"lib/router/layer.js" -> "(app)":"index.js";
+    "express":"lib/middleware/query.js" -> "parseurl":"index.js";
+    "express":"lib/utils.js" -> "qs":"lib/parse.js";
+    "express":"lib/utils.js" -> "content-type":"index.js";
+    "express":"lib/utils.js" -> "etag":"index.js";
+    "express":"lib/view.js" -> "jade":"lib/index.js";
+    "jade":"lib/index.js" -> "with":"index.js";
+    "jade":"lib/index.js" -> "express":"lib/response.js";
+    "with":"index.js" -> "acorn-globals":"index.js";
+    "acorn-globals":"index.js" -> "acorn":"dist/acorn.js";
+    "acorn-globals":"index.js" -> "acorn":"dist/walk.js";
+    "acorn":"dist/walk.js" -> "acorn-globals":"index.js";
+}
