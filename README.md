@@ -6,7 +6,7 @@ files generated from V8's CPU profiler.
 
 <img src='https://rawgit.com/pmuellr/cp2cg/master/test/fixtures/express-jade.cpuprofile.svg'>
 
-Generates SVG via [vis.js](https://npmjs.org/package/viz.js).
+Generates SVG via [viz.js](https://npmjs.org/package/viz.js).
 
 Partitions the call graph by "packages" which contain "modules".
 Partitioning is determined by the location of the string `node_modules` in
@@ -36,7 +36,7 @@ install
 reference
 ================================================================================
 
-* [vis.js](https://npmjs.org/package/viz.js)
+* [viz.js](https://npmjs.org/package/viz.js)
 * [Graphviz](http://www.graphviz.org/Documentation.php)
 * [V8 CPU profiling](https://developers.google.com/web/tools/chrome-devtools/rendering-tools/js-execution?hl=en)
 * [V8 Inspector for Node.js](https://nodejs.org/dist/latest-v6.x/docs/api/debugger.html#debugger_v8_inspector_integration_for_node_js)
