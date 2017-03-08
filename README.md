@@ -1,17 +1,22 @@
 cp2cg - converts cpuprofile files to call graphs
 ================================================================================
 
-Generates call graph information based on `.cpuprofile` files generated from
-V8's CPU profiler.
+Generates package/module-scoped call graph information based on `.cpuprofile`
+files generated from V8's CPU profiler.
 
 <img src='https://rawgit.com/pmuellr/cp2cg/master/test/fixtures/express-jade.cpuprofile.svg'>
 
-Currently generating unpretty SVG via [vis.js](https://npmjs.org/package/viz.js).
+Generates SVG via [vis.js](https://npmjs.org/package/viz.js).
 
-Currently partitioning callgraph by "packages" which contain "modules".
+Partitions the call graph by "packages" which contain "modules".
 Partitioning is determined by the location of the string `node_modules` in
 the script name, so probably won't work well in a browser, and is far from
 perfect for Node.js apps as well.
+
+Colors of modules are based on the hitCount of functions in the module.
+
+Intra-package calls between modules are not shown, nor are calls to Node.js
+built-in modules, to reduce clutter.
 
 
 example usage
