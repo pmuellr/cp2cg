@@ -12,273 +12,399 @@
 <!-- (app) -->
 <g id="node1" class="node">
 <title>(app)</title>
-<g id="a_node1_0"><a xlink:href="https://npmjs.org/package/(app)" xlink:title="package (app)">
 <polygon fill="#98f5ff" stroke="transparent" points=".5,-375 .5,-409 49.5,-409 49.5,-375 .5,-375"/>
 <polygon fill="none" stroke="#000000" points=".5,-375 .5,-409 49.5,-409 49.5,-375 .5,-375"/>
 <text text-anchor="start" x="9.5" y="-388.4" font-family="Times,serif" font-weight="bold" font-size="14.00" fill="#000000">(app)</text>
-</a>
-</g>
+<g id="a_node1_0"><a xlink:href="#" xlink:title="0% &#45;&#45; /Users/pmuellr/Projects/slides/2017/01&#45;profiling&#45;node/demos/express&#45;demo/index.js">
 <polygon fill="#ffffff" stroke="transparent" points=".5,-353 .5,-375 49.5,-375 49.5,-353 .5,-353"/>
 <polygon fill="none" stroke="#000000" points=".5,-353 .5,-375 49.5,-375 49.5,-353 .5,-353"/>
 <text text-anchor="start" x="3.0298" y="-359.4" font-family="Times,serif" font-size="14.00" fill="#000000">index.js</text>
+</a>
+</g>
 </g>
 <!-- express -->
 <g id="node2" class="node">
 <title>express</title>
-<g id="a_node2_1"><a xlink:href="https://npmjs.org/package/express" xlink:title="package express">
+<g id="a_node2_1"><a xlink:href="https://npmjs.org/package/express" xlink:title="package express &#45;&#45; 4%">
 <polygon fill="#98f5ff" stroke="transparent" points="85.5,-507 85.5,-541 224.5,-541 224.5,-507 85.5,-507"/>
 <polygon fill="none" stroke="#000000" points="85.5,-507 85.5,-541 224.5,-541 224.5,-507 85.5,-507"/>
 <text text-anchor="start" x="94.5" y="-520.4" font-family="Times,serif" font-weight="bold" font-size="14.00" fill="#000000">express</text>
 </a>
 </g>
+<g id="a_node2_2"><a xlink:href="#" xlink:title="1% &#45;&#45; /Users/pmuellr/Projects/slides/2017/01&#45;profiling&#45;node/demos/express&#45;demo/node_modules/express/lib/application.js">
 <polygon fill="#ffe4e1" stroke="transparent" points="85.5,-485 85.5,-507 224.5,-507 224.5,-485 85.5,-485"/>
 <polygon fill="none" stroke="#000000" points="85.5,-485 85.5,-507 224.5,-507 224.5,-485 85.5,-485"/>
 <text text-anchor="start" x="88.5" y="-491.4" font-family="Times,serif" font-size="14.00" fill="#000000">lib/application.js</text>
+</a>
+</g>
+<g id="a_node2_3"><a xlink:href="#" xlink:title="0% &#45;&#45; /Users/pmuellr/Projects/slides/2017/01&#45;profiling&#45;node/demos/express&#45;demo/node_modules/express/lib/express.js">
 <polygon fill="#ffffff" stroke="transparent" points="85.5,-463 85.5,-485 224.5,-485 224.5,-463 85.5,-463"/>
 <polygon fill="none" stroke="#000000" points="85.5,-463 85.5,-485 224.5,-485 224.5,-463 85.5,-463"/>
 <text text-anchor="start" x="88.5" y="-469.4" font-family="Times,serif" font-size="14.00" fill="#000000">lib/express.js</text>
+</a>
+</g>
+<g id="a_node2_4"><a xlink:href="#" xlink:title="0% &#45;&#45; /Users/pmuellr/Projects/slides/2017/01&#45;profiling&#45;node/demos/express&#45;demo/node_modules/express/lib/middleware/init.js">
 <polygon fill="#ffffff" stroke="transparent" points="85.5,-441 85.5,-463 224.5,-463 224.5,-441 85.5,-441"/>
 <polygon fill="none" stroke="#000000" points="85.5,-441 85.5,-463 224.5,-463 224.5,-441 85.5,-441"/>
 <text text-anchor="start" x="88.5" y="-447.4" font-family="Times,serif" font-size="14.00" fill="#000000">lib/middleware/init.js</text>
+</a>
+</g>
+<g id="a_node2_5"><a xlink:href="#" xlink:title="0% &#45;&#45; /Users/pmuellr/Projects/slides/2017/01&#45;profiling&#45;node/demos/express&#45;demo/node_modules/express/lib/middleware/query.js">
 <polygon fill="#ffffff" stroke="transparent" points="85.5,-419 85.5,-441 224.5,-441 224.5,-419 85.5,-419"/>
 <polygon fill="none" stroke="#000000" points="85.5,-419 85.5,-441 224.5,-441 224.5,-419 85.5,-419"/>
 <text text-anchor="start" x="88.3222" y="-425.4" font-family="Times,serif" font-size="14.00" fill="#000000">lib/middleware/query.js</text>
+</a>
+</g>
+<g id="a_node2_6"><a xlink:href="#" xlink:title="0% &#45;&#45; /Users/pmuellr/Projects/slides/2017/01&#45;profiling&#45;node/demos/express&#45;demo/node_modules/express/lib/request.js">
 <polygon fill="#ffffff" stroke="transparent" points="85.5,-397 85.5,-419 224.5,-419 224.5,-397 85.5,-397"/>
 <polygon fill="none" stroke="#000000" points="85.5,-397 85.5,-419 224.5,-419 224.5,-397 85.5,-397"/>
 <text text-anchor="start" x="88.5" y="-403.4" font-family="Times,serif" font-size="14.00" fill="#000000">lib/request.js</text>
+</a>
+</g>
+<g id="a_node2_7"><a xlink:href="#" xlink:title="1% &#45;&#45; /Users/pmuellr/Projects/slides/2017/01&#45;profiling&#45;node/demos/express&#45;demo/node_modules/express/lib/response.js">
 <polygon fill="#ffe4e1" stroke="transparent" points="85.5,-375 85.5,-397 224.5,-397 224.5,-375 85.5,-375"/>
 <polygon fill="none" stroke="#000000" points="85.5,-375 85.5,-397 224.5,-397 224.5,-375 85.5,-375"/>
 <text text-anchor="start" x="88.5" y="-381.4" font-family="Times,serif" font-size="14.00" fill="#000000">lib/response.js</text>
+</a>
+</g>
+<g id="a_node2_8"><a xlink:href="#" xlink:title="1% &#45;&#45; /Users/pmuellr/Projects/slides/2017/01&#45;profiling&#45;node/demos/express&#45;demo/node_modules/express/lib/router/index.js">
 <polygon fill="#ffe4e1" stroke="transparent" points="85.5,-353 85.5,-375 224.5,-375 224.5,-353 85.5,-353"/>
 <polygon fill="none" stroke="#000000" points="85.5,-353 85.5,-375 224.5,-375 224.5,-353 85.5,-353"/>
 <text text-anchor="start" x="88.5" y="-359.4" font-family="Times,serif" font-size="14.00" fill="#000000">lib/router/index.js</text>
+</a>
+</g>
+<g id="a_node2_9"><a xlink:href="#" xlink:title="0% &#45;&#45; /Users/pmuellr/Projects/slides/2017/01&#45;profiling&#45;node/demos/express&#45;demo/node_modules/express/lib/router/layer.js">
 <polygon fill="#ffffff" stroke="transparent" points="85.5,-331 85.5,-353 224.5,-353 224.5,-331 85.5,-331"/>
 <polygon fill="none" stroke="#000000" points="85.5,-331 85.5,-353 224.5,-353 224.5,-331 85.5,-331"/>
 <text text-anchor="start" x="88.5" y="-337.4" font-family="Times,serif" font-size="14.00" fill="#000000">lib/router/layer.js</text>
+</a>
+</g>
+<g id="a_node2_10"><a xlink:href="#" xlink:title="0% &#45;&#45; /Users/pmuellr/Projects/slides/2017/01&#45;profiling&#45;node/demos/express&#45;demo/node_modules/express/lib/router/route.js">
 <polygon fill="#ffffff" stroke="transparent" points="85.5,-309 85.5,-331 224.5,-331 224.5,-309 85.5,-309"/>
 <polygon fill="none" stroke="#000000" points="85.5,-309 85.5,-331 224.5,-331 224.5,-309 85.5,-309"/>
 <text text-anchor="start" x="88.5" y="-315.4" font-family="Times,serif" font-size="14.00" fill="#000000">lib/router/route.js</text>
+</a>
+</g>
+<g id="a_node2_11"><a xlink:href="#" xlink:title="0% &#45;&#45; /Users/pmuellr/Projects/slides/2017/01&#45;profiling&#45;node/demos/express&#45;demo/node_modules/express/lib/utils.js">
 <polygon fill="#ffffff" stroke="transparent" points="85.5,-287 85.5,-309 224.5,-309 224.5,-287 85.5,-287"/>
 <polygon fill="none" stroke="#000000" points="85.5,-287 85.5,-309 224.5,-309 224.5,-287 85.5,-287"/>
 <text text-anchor="start" x="88.5" y="-293.4" font-family="Times,serif" font-size="14.00" fill="#000000">lib/utils.js</text>
+</a>
+</g>
+<g id="a_node2_12"><a xlink:href="#" xlink:title="1% &#45;&#45; /Users/pmuellr/Projects/slides/2017/01&#45;profiling&#45;node/demos/express&#45;demo/node_modules/express/lib/view.js">
 <polygon fill="#ffe4e1" stroke="transparent" points="85.5,-265 85.5,-287 224.5,-287 224.5,-265 85.5,-265"/>
 <polygon fill="none" stroke="#000000" points="85.5,-265 85.5,-287 224.5,-287 224.5,-265 85.5,-265"/>
 <text text-anchor="start" x="88.5" y="-271.4" font-family="Times,serif" font-size="14.00" fill="#000000">lib/view.js</text>
+</a>
+</g>
 </g>
 <!-- (app)&#45;&gt;express -->
 <g id="edge1" class="edge">
 <title>(app):index.js&#45;&gt;express:lib/router/index.js</title>
+<g id="a_edge1"><a xlink:title="(app):index.js &#45;&gt; express:lib/router/index.js">
 <path fill="none" stroke="#000000" d="M49,-364C61.1667,-364 66.4896,-364 75.2344,-364"/>
 <polygon fill="#000000" stroke="#000000" points="75.5,-367.5001 85.5,-364 75.5,-360.5001 75.5,-367.5001"/>
+</a>
+</g>
 </g>
 <!-- (app)&#45;&gt;express -->
 <g id="edge2" class="edge">
 <title>(app):index.js&#45;&gt;express:lib/response.js</title>
+<g id="a_edge2"><a xlink:title="(app):index.js &#45;&gt; express:lib/response.js">
 <path fill="none" stroke="#000000" d="M49,-364C63.7977,-364 66.1911,-377.4277 75.5619,-383.3024"/>
 <polygon fill="#000000" stroke="#000000" points="74.9323,-386.7581 85.5,-386 76.7661,-380.0025 74.9323,-386.7581"/>
+</a>
+</g>
 </g>
 <!-- express&#45;&gt;(app) -->
 <g id="edge3" class="edge">
 <title>express:lib/router/layer.js&#45;&gt;(app):index.js</title>
+<g id="a_edge3"><a xlink:title="express:lib/router/layer.js &#45;&gt; (app):index.js">
 <path fill="none" stroke="#000000" d="M85.5,-342C70.7023,-342 68.3089,-355.4277 58.9381,-361.3024"/>
 <polygon fill="#000000" stroke="#000000" points="57.7339,-358.0025 49,-364 59.5677,-364.7581 57.7339,-358.0025"/>
+</a>
+</g>
 </g>
 <!-- qs -->
 <g id="node3" class="node">
 <title>qs</title>
-<g id="a_node3_2"><a xlink:href="https://npmjs.org/package/qs" xlink:title="package qs">
+<g id="a_node3_13"><a xlink:href="https://npmjs.org/package/qs" xlink:title="package qs &#45;&#45; 0%">
 <polygon fill="#98f5ff" stroke="transparent" points="279.5,-44 279.5,-78 346.5,-78 346.5,-44 279.5,-44"/>
 <polygon fill="none" stroke="#000000" points="279.5,-44 279.5,-78 346.5,-78 346.5,-44 279.5,-44"/>
 <text text-anchor="start" x="288.5" y="-57.4" font-family="Times,serif" font-weight="bold" font-size="14.00" fill="#000000">qs</text>
 </a>
 </g>
+<g id="a_node3_14"><a xlink:href="#" xlink:title="0% &#45;&#45; /Users/pmuellr/Projects/slides/2017/01&#45;profiling&#45;node/demos/express&#45;demo/node_modules/express/node_modules/qs/lib/parse.js">
 <polygon fill="#ffffff" stroke="transparent" points="279.5,-22 279.5,-44 346.5,-44 346.5,-22 279.5,-22"/>
 <polygon fill="none" stroke="#000000" points="279.5,-22 279.5,-44 346.5,-44 346.5,-22 279.5,-22"/>
 <text text-anchor="start" x="282.4793" y="-28.4" font-family="Times,serif" font-size="14.00" fill="#000000">lib/parse.js</text>
+</a>
+</g>
+<g id="a_node3_15"><a xlink:href="#" xlink:title="0% &#45;&#45; /Users/pmuellr/Projects/slides/2017/01&#45;profiling&#45;node/demos/express&#45;demo/node_modules/express/node_modules/qs/lib/utils.js">
 <polygon fill="#ffffff" stroke="transparent" points="279.5,0 279.5,-22 346.5,-22 346.5,0 279.5,0"/>
 <polygon fill="none" stroke="#000000" points="279.5,0 279.5,-22 346.5,-22 346.5,0 279.5,0"/>
 <text text-anchor="start" x="282.5" y="-6.4" font-family="Times,serif" font-size="14.00" fill="#000000">lib/utils.js</text>
+</a>
+</g>
 </g>
 <!-- express&#45;&gt;qs -->
 <g id="edge5" class="edge">
 <title>express:lib/utils.js&#45;&gt;qs:lib/parse.js</title>
+<g id="a_edge5"><a xlink:title="express:lib/utils.js &#45;&gt; qs:lib/parse.js">
 <path fill="none" stroke="#000000" d="M224,-298C280.5236,-298 226.7261,-64.1184 269.8905,-35.7968"/>
 <polygon fill="#000000" stroke="#000000" points="270.8765,-39.1551 279.5,-33 268.9203,-32.434 270.8765,-39.1551"/>
+</a>
+</g>
 </g>
 <!-- jade -->
 <g id="node4" class="node">
 <title>jade</title>
-<g id="a_node4_3"><a xlink:href="https://npmjs.org/package/jade" xlink:title="package jade">
+<g id="a_node4_16"><a xlink:href="https://npmjs.org/package/jade" xlink:title="package jade &#45;&#45; 35%">
 <polygon fill="#98f5ff" stroke="transparent" points="260.5,-272 260.5,-306 365.5,-306 365.5,-272 260.5,-272"/>
 <polygon fill="none" stroke="#000000" points="260.5,-272 260.5,-306 365.5,-306 365.5,-272 260.5,-272"/>
 <text text-anchor="start" x="269.5" y="-285.4" font-family="Times,serif" font-weight="bold" font-size="14.00" fill="#000000">jade</text>
 </a>
 </g>
+<g id="a_node4_17"><a xlink:href="#" xlink:title="4% &#45;&#45; /Users/pmuellr/Projects/slides/2017/01&#45;profiling&#45;node/demos/express&#45;demo/node_modules/jade/lib/compiler.js">
 <polygon fill="#ffe4e1" stroke="transparent" points="260.5,-250 260.5,-272 365.5,-272 365.5,-250 260.5,-250"/>
 <polygon fill="none" stroke="#000000" points="260.5,-250 260.5,-272 365.5,-272 365.5,-250 260.5,-250"/>
 <text text-anchor="start" x="263.5" y="-256.4" font-family="Times,serif" font-size="14.00" fill="#000000">lib/compiler.js</text>
+</a>
+</g>
+<g id="a_node4_18"><a xlink:href="#" xlink:title="15% &#45;&#45; /Users/pmuellr/Projects/slides/2017/01&#45;profiling&#45;node/demos/express&#45;demo/node_modules/jade/lib/index.js">
 <polygon fill="#ff69b4" stroke="transparent" points="260.5,-228 260.5,-250 365.5,-250 365.5,-228 260.5,-228"/>
 <polygon fill="none" stroke="#000000" points="260.5,-228 260.5,-250 365.5,-250 365.5,-228 260.5,-228"/>
 <text text-anchor="start" x="263.5" y="-234.4" font-family="Times,serif" font-size="14.00" fill="#000000">lib/index.js</text>
+</a>
+</g>
+<g id="a_node4_19"><a xlink:href="#" xlink:title="9% &#45;&#45; /Users/pmuellr/Projects/slides/2017/01&#45;profiling&#45;node/demos/express&#45;demo/node_modules/jade/lib/lexer.js">
 <polygon fill="#ffc0cb" stroke="transparent" points="260.5,-206 260.5,-228 365.5,-228 365.5,-206 260.5,-206"/>
 <polygon fill="none" stroke="#000000" points="260.5,-206 260.5,-228 365.5,-228 365.5,-206 260.5,-206"/>
 <text text-anchor="start" x="263.5" y="-212.4" font-family="Times,serif" font-size="14.00" fill="#000000">lib/lexer.js</text>
+</a>
+</g>
+<g id="a_node4_20"><a xlink:href="#" xlink:title="0% &#45;&#45; /Users/pmuellr/Projects/slides/2017/01&#45;profiling&#45;node/demos/express&#45;demo/node_modules/jade/lib/nodes/block.js">
 <polygon fill="#ffffff" stroke="transparent" points="260.5,-184 260.5,-206 365.5,-206 365.5,-184 260.5,-184"/>
 <polygon fill="none" stroke="#000000" points="260.5,-184 260.5,-206 365.5,-206 365.5,-184 260.5,-184"/>
 <text text-anchor="start" x="263.419" y="-190.4" font-family="Times,serif" font-size="14.00" fill="#000000">lib/nodes/block.js</text>
+</a>
+</g>
+<g id="a_node4_21"><a xlink:href="#" xlink:title="0% &#45;&#45; /Users/pmuellr/Projects/slides/2017/01&#45;profiling&#45;node/demos/express&#45;demo/node_modules/jade/lib/nodes/tag.js">
 <polygon fill="#ffffff" stroke="transparent" points="260.5,-162 260.5,-184 365.5,-184 365.5,-162 260.5,-162"/>
 <polygon fill="none" stroke="#000000" points="260.5,-162 260.5,-184 365.5,-184 365.5,-162 260.5,-162"/>
 <text text-anchor="start" x="263.5" y="-168.4" font-family="Times,serif" font-size="14.00" fill="#000000">lib/nodes/tag.js</text>
+</a>
+</g>
+<g id="a_node4_22"><a xlink:href="#" xlink:title="7% &#45;&#45; /Users/pmuellr/Projects/slides/2017/01&#45;profiling&#45;node/demos/express&#45;demo/node_modules/jade/lib/parser.js">
 <polygon fill="#ffc0cb" stroke="transparent" points="260.5,-140 260.5,-162 365.5,-162 365.5,-140 260.5,-140"/>
 <polygon fill="none" stroke="#000000" points="260.5,-140 260.5,-162 365.5,-162 365.5,-140 260.5,-140"/>
 <text text-anchor="start" x="263.5" y="-146.4" font-family="Times,serif" font-size="14.00" fill="#000000">lib/parser.js</text>
+</a>
+</g>
+<g id="a_node4_23"><a xlink:href="#" xlink:title="0% &#45;&#45; /Users/pmuellr/Projects/slides/2017/01&#45;profiling&#45;node/demos/express&#45;demo/node_modules/jade/lib/runtime.js">
 <polygon fill="#ffffff" stroke="transparent" points="260.5,-118 260.5,-140 365.5,-140 365.5,-118 260.5,-118"/>
 <polygon fill="none" stroke="#000000" points="260.5,-118 260.5,-140 365.5,-140 365.5,-118 260.5,-118"/>
 <text text-anchor="start" x="263.5" y="-124.4" font-family="Times,serif" font-size="14.00" fill="#000000">lib/runtime.js</text>
+</a>
+</g>
+<g id="a_node4_24"><a xlink:href="#" xlink:title="0% &#45;&#45; /Users/pmuellr/Projects/slides/2017/01&#45;profiling&#45;node/demos/express&#45;demo/node_modules/jade/lib/utils.js">
 <polygon fill="#ffffff" stroke="transparent" points="260.5,-96 260.5,-118 365.5,-118 365.5,-96 260.5,-96"/>
 <polygon fill="none" stroke="#000000" points="260.5,-96 260.5,-118 365.5,-118 365.5,-96 260.5,-96"/>
 <text text-anchor="start" x="263.5" y="-102.4" font-family="Times,serif" font-size="14.00" fill="#000000">lib/utils.js</text>
+</a>
+</g>
 </g>
 <!-- express&#45;&gt;jade -->
 <g id="edge8" class="edge">
 <title>express:lib/view.js&#45;&gt;jade:lib/index.js</title>
+<g id="a_edge8"><a xlink:title="express:lib/view.js &#45;&gt; jade:lib/index.js">
 <path fill="none" stroke="#000000" d="M224,-276C242.9487,-276 239.8271,-251.1022 250.8443,-242.1546"/>
 <polygon fill="#000000" stroke="#000000" points="252.0814,-245.4326 260.5,-239 249.9075,-238.7787 252.0814,-245.4326"/>
+</a>
+</g>
 </g>
 <!-- content&#45;type -->
 <g id="node8" class="node">
 <title>content&#45;type</title>
-<g id="a_node8_4"><a xlink:href="https://npmjs.org/package/content-type" xlink:title="package content&#45;type">
+<g id="a_node8_25"><a xlink:href="https://npmjs.org/package/content-type" xlink:title="package content&#45;type &#45;&#45; 0%">
 <polygon fill="#98f5ff" stroke="transparent" points="269.5,-420 269.5,-454 356.5,-454 356.5,-420 269.5,-420"/>
 <polygon fill="none" stroke="#000000" points="269.5,-420 269.5,-454 356.5,-454 356.5,-420 269.5,-420"/>
 <text text-anchor="start" x="278.0119" y="-433.4" font-family="Times,serif" font-weight="bold" font-size="14.00" fill="#000000">content&#45;type</text>
 </a>
 </g>
+<g id="a_node8_26"><a xlink:href="#" xlink:title="0% &#45;&#45; /Users/pmuellr/Projects/slides/2017/01&#45;profiling&#45;node/demos/express&#45;demo/node_modules/express/node_modules/content&#45;type/index.js">
 <polygon fill="#ffffff" stroke="transparent" points="269.5,-398 269.5,-420 356.5,-420 356.5,-398 269.5,-398"/>
 <polygon fill="none" stroke="#000000" points="269.5,-398 269.5,-420 356.5,-420 356.5,-398 269.5,-398"/>
 <text text-anchor="start" x="272.5" y="-404.4" font-family="Times,serif" font-size="14.00" fill="#000000">index.js</text>
+</a>
+</g>
 </g>
 <!-- express&#45;&gt;content&#45;type -->
 <g id="edge6" class="edge">
 <title>express:lib/utils.js&#45;&gt;content&#45;type:index.js</title>
+<g id="a_edge6"><a xlink:title="express:lib/utils.js &#45;&gt; content&#45;type:index.js">
 <path fill="none" stroke="#000000" d="M224,-298C273.36,-298 224.627,-393.1349 259.4264,-407.2565"/>
 <polygon fill="#000000" stroke="#000000" points="259.0496,-410.7432 269.5,-409 260.2434,-403.8457 259.0496,-410.7432"/>
+</a>
+</g>
 </g>
 <!-- etag -->
 <g id="node9" class="node">
 <title>etag</title>
-<g id="a_node9_5"><a xlink:href="https://npmjs.org/package/etag" xlink:title="package etag">
+<g id="a_node9_27"><a xlink:href="https://npmjs.org/package/etag" xlink:title="package etag &#45;&#45; 1%">
 <polygon fill="#98f5ff" stroke="transparent" points="288.5,-346 288.5,-380 337.5,-380 337.5,-346 288.5,-346"/>
 <polygon fill="none" stroke="#000000" points="288.5,-346 288.5,-380 337.5,-380 337.5,-346 288.5,-346"/>
 <text text-anchor="start" x="297.5" y="-359.4" font-family="Times,serif" font-weight="bold" font-size="14.00" fill="#000000">etag</text>
 </a>
 </g>
+<g id="a_node9_28"><a xlink:href="#" xlink:title="1% &#45;&#45; /Users/pmuellr/Projects/slides/2017/01&#45;profiling&#45;node/demos/express&#45;demo/node_modules/express/node_modules/etag/index.js">
 <polygon fill="#ffe4e1" stroke="transparent" points="288.5,-324 288.5,-346 337.5,-346 337.5,-324 288.5,-324"/>
 <polygon fill="none" stroke="#000000" points="288.5,-324 288.5,-346 337.5,-346 337.5,-324 288.5,-324"/>
 <text text-anchor="start" x="291.0298" y="-330.4" font-family="Times,serif" font-size="14.00" fill="#000000">index.js</text>
+</a>
+</g>
 </g>
 <!-- express&#45;&gt;etag -->
 <g id="edge7" class="edge">
 <title>express:lib/utils.js&#45;&gt;etag:index.js</title>
+<g id="a_edge7"><a xlink:title="express:lib/utils.js &#45;&gt; etag:index.js">
 <path fill="none" stroke="#000000" d="M224,-298C253.3046,-298 255.3688,-327.092 278.5017,-333.6832"/>
 <polygon fill="#000000" stroke="#000000" points="278.1286,-337.1641 288.5,-335 279.0427,-330.2241 278.1286,-337.1641"/>
+</a>
+</g>
 </g>
 <!-- parseurl -->
 <g id="node10" class="node">
 <title>parseurl</title>
-<g id="a_node10_6"><a xlink:href="https://npmjs.org/package/parseurl" xlink:title="package parseurl">
+<g id="a_node10_29"><a xlink:href="https://npmjs.org/package/parseurl" xlink:title="package parseurl &#45;&#45; 0%">
 <polygon fill="#98f5ff" stroke="transparent" points="281.5,-494 281.5,-528 344.5,-528 344.5,-494 281.5,-494"/>
 <polygon fill="none" stroke="#000000" points="281.5,-494 281.5,-528 344.5,-528 344.5,-494 281.5,-494"/>
 <text text-anchor="start" x="290.4572" y="-507.4" font-family="Times,serif" font-weight="bold" font-size="14.00" fill="#000000">parseurl</text>
 </a>
 </g>
+<g id="a_node10_30"><a xlink:href="#" xlink:title="0% &#45;&#45; /Users/pmuellr/Projects/slides/2017/01&#45;profiling&#45;node/demos/express&#45;demo/node_modules/express/node_modules/parseurl/index.js">
 <polygon fill="#ffffff" stroke="transparent" points="281.5,-472 281.5,-494 344.5,-494 344.5,-472 281.5,-472"/>
 <polygon fill="none" stroke="#000000" points="281.5,-472 281.5,-494 344.5,-494 344.5,-472 281.5,-472"/>
 <text text-anchor="start" x="284.5" y="-478.4" font-family="Times,serif" font-size="14.00" fill="#000000">index.js</text>
+</a>
+</g>
 </g>
 <!-- express&#45;&gt;parseurl -->
 <g id="edge4" class="edge">
 <title>express:lib/middleware/query.js&#45;&gt;parseurl:index.js</title>
+<g id="a_edge4"><a xlink:title="express:lib/middleware/query.js &#45;&gt; parseurl:index.js">
 <path fill="none" stroke="#000000" d="M224,-430C254.9542,-430 248.8124,-472.0403 271.6518,-481.2366"/>
 <polygon fill="#000000" stroke="#000000" points="271.0396,-484.6826 281.5,-483 272.2735,-477.7922 271.0396,-484.6826"/>
+</a>
+</g>
 </g>
 <!-- jade&#45;&gt;express -->
 <g id="edge10" class="edge">
 <title>jade:lib/index.js&#45;&gt;express:lib/response.js</title>
+<g id="a_edge10"><a xlink:title="jade:lib/index.js &#45;&gt; express:lib/response.js">
 <path fill="none" stroke="#000000" d="M260.5,-239C197.1272,-239 280.3851,-369.2781 234.1956,-384.5451"/>
 <polygon fill="#000000" stroke="#000000" points="233.4052,-381.1223 224,-386 234.3942,-388.0521 233.4052,-381.1223"/>
+</a>
+</g>
 </g>
 <!-- with -->
 <g id="node5" class="node">
 <title>with</title>
-<g id="a_node5_7"><a xlink:href="https://npmjs.org/package/with" xlink:title="package with">
+<g id="a_node5_31"><a xlink:href="https://npmjs.org/package/with" xlink:title="package with &#45;&#45; 1%">
 <polygon fill="#98f5ff" stroke="transparent" points="401.5,-250 401.5,-284 450.5,-284 450.5,-250 401.5,-250"/>
 <polygon fill="none" stroke="#000000" points="401.5,-250 401.5,-284 450.5,-284 450.5,-250 401.5,-250"/>
 <text text-anchor="start" x="410.5" y="-263.4" font-family="Times,serif" font-weight="bold" font-size="14.00" fill="#000000">with</text>
 </a>
 </g>
+<g id="a_node5_32"><a xlink:href="#" xlink:title="1% &#45;&#45; /Users/pmuellr/Projects/slides/2017/01&#45;profiling&#45;node/demos/express&#45;demo/node_modules/jade/node_modules/with/index.js">
 <polygon fill="#ffe4e1" stroke="transparent" points="401.5,-228 401.5,-250 450.5,-250 450.5,-228 401.5,-228"/>
 <polygon fill="none" stroke="#000000" points="401.5,-228 401.5,-250 450.5,-250 450.5,-228 401.5,-228"/>
 <text text-anchor="start" x="404.0298" y="-234.4" font-family="Times,serif" font-size="14.00" fill="#000000">index.js</text>
+</a>
+</g>
 </g>
 <!-- jade&#45;&gt;with -->
 <g id="edge9" class="edge">
 <title>jade:lib/index.js&#45;&gt;with:index.js</title>
+<g id="a_edge9"><a xlink:title="jade:lib/index.js &#45;&gt; with:index.js">
 <path fill="none" stroke="#000000" d="M365,-239C377.1667,-239 382.4896,-239 391.2344,-239"/>
 <polygon fill="#000000" stroke="#000000" points="391.5,-242.5001 401.5,-239 391.5,-235.5001 391.5,-242.5001"/>
+</a>
+</g>
 </g>
 <!-- acorn&#45;globals -->
 <g id="node6" class="node">
 <title>acorn&#45;globals</title>
-<g id="a_node6_8"><a xlink:href="https://npmjs.org/package/acorn-globals" xlink:title="package acorn&#45;globals">
+<g id="a_node6_33"><a xlink:href="https://npmjs.org/package/acorn-globals" xlink:title="package acorn&#45;globals &#45;&#45; 4%">
 <polygon fill="#98f5ff" stroke="transparent" points="486,-250 486,-284 580,-284 580,-250 486,-250"/>
 <polygon fill="none" stroke="#000000" points="486,-250 486,-284 580,-284 580,-250 486,-250"/>
 <text text-anchor="start" x="494.9046" y="-263.4" font-family="Times,serif" font-weight="bold" font-size="14.00" fill="#000000">acorn&#45;globals</text>
 </a>
 </g>
+<g id="a_node6_34"><a xlink:href="#" xlink:title="4% &#45;&#45; /Users/pmuellr/Projects/slides/2017/01&#45;profiling&#45;node/demos/express&#45;demo/node_modules/jade/node_modules/with/node_modules/acorn&#45;globals/index.js">
 <polygon fill="#ffe4e1" stroke="transparent" points="486,-228 486,-250 580,-250 580,-228 486,-228"/>
 <polygon fill="none" stroke="#000000" points="486,-228 486,-250 580,-250 580,-228 486,-228"/>
 <text text-anchor="start" x="489" y="-234.4" font-family="Times,serif" font-size="14.00" fill="#000000">index.js</text>
+</a>
+</g>
 </g>
 <!-- with&#45;&gt;acorn&#45;globals -->
 <g id="edge11" class="edge">
 <title>with:index.js&#45;&gt;acorn&#45;globals:index.js</title>
+<g id="a_edge11"><a xlink:title="with:index.js &#45;&gt; acorn&#45;globals:index.js">
 <path fill="none" stroke="#000000" d="M450,-239C462,-239 467.25,-239 475.875,-239"/>
 <polygon fill="#000000" stroke="#000000" points="476,-242.5001 486,-239 476,-235.5001 476,-242.5001"/>
+</a>
+</g>
 </g>
 <!-- acorn -->
 <g id="node7" class="node">
 <title>acorn</title>
-<g id="a_node7_9"><a xlink:href="https://npmjs.org/package/acorn" xlink:title="package acorn">
+<g id="a_node7_35"><a xlink:href="https://npmjs.org/package/acorn" xlink:title="package acorn &#45;&#45; 51%">
 <polygon fill="#98f5ff" stroke="transparent" points="616,-272 616,-306 690,-306 690,-272 616,-272"/>
 <polygon fill="none" stroke="#000000" points="616,-272 616,-306 690,-306 690,-272 616,-272"/>
 <text text-anchor="start" x="625" y="-285.4" font-family="Times,serif" font-weight="bold" font-size="14.00" fill="#000000">acorn</text>
 </a>
 </g>
+<g id="a_node7_36"><a xlink:href="#" xlink:title="31% &#45;&#45; /Users/pmuellr/Projects/slides/2017/01&#45;profiling&#45;node/demos/express&#45;demo/node_modules/jade/node_modules/with/node_modules/acorn&#45;globals/node_modules/acorn/dist/acorn.js">
 <polygon fill="#ff00ff" stroke="transparent" points="616,-250 616,-272 690,-272 690,-250 616,-250"/>
 <polygon fill="none" stroke="#000000" points="616,-250 616,-272 690,-272 690,-250 616,-250"/>
 <text text-anchor="start" x="618.9793" y="-256.4" font-family="Times,serif" font-size="14.00" fill="#000000">dist/acorn.js</text>
+</a>
+</g>
+<g id="a_node7_37"><a xlink:href="#" xlink:title="20% &#45;&#45; /Users/pmuellr/Projects/slides/2017/01&#45;profiling&#45;node/demos/express&#45;demo/node_modules/jade/node_modules/with/node_modules/acorn&#45;globals/node_modules/acorn/dist/walk.js">
 <polygon fill="#ff69b4" stroke="transparent" points="616,-228 616,-250 690,-250 690,-228 616,-228"/>
 <polygon fill="none" stroke="#000000" points="616,-228 616,-250 690,-250 690,-228 616,-228"/>
 <text text-anchor="start" x="619" y="-234.4" font-family="Times,serif" font-size="14.00" fill="#000000">dist/walk.js</text>
+</a>
+</g>
 </g>
 <!-- acorn&#45;globals&#45;&gt;acorn -->
 <g id="edge12" class="edge">
 <title>acorn&#45;globals:index.js&#45;&gt;acorn:dist/acorn.js</title>
+<g id="a_edge12"><a xlink:title="acorn&#45;globals:index.js &#45;&gt; acorn:dist/acorn.js">
 <path fill="none" stroke="#000000" d="M580,-239C594.6493,-239 596.937,-252.4277 606.178,-258.3024"/>
 <polygon fill="#000000" stroke="#000000" points="605.4301,-261.7265 616,-261 607.2841,-254.9765 605.4301,-261.7265"/>
+</a>
+</g>
 </g>
 <!-- acorn&#45;globals&#45;&gt;acorn -->
 <g id="edge13" class="edge">
 <title>acorn&#45;globals:index.js&#45;&gt;acorn:dist/walk.js</title>
+<g id="a_edge13"><a xlink:title="acorn&#45;globals:index.js &#45;&gt; acorn:dist/walk.js">
 <path fill="none" stroke="#000000" d="M580,-239C592,-239 597.25,-239 605.875,-239"/>
 <polygon fill="#000000" stroke="#000000" points="606,-242.5001 616,-239 606,-235.5001 606,-242.5001"/>
+</a>
+</g>
 </g>
 <!-- acorn&#45;&gt;acorn&#45;globals -->
 <g id="edge14" class="edge">
 <title>acorn:dist/walk.js&#45;&gt;acorn&#45;globals:index.js</title>
+<g id="a_edge14"><a xlink:title="acorn:dist/walk.js &#45;&gt; acorn&#45;globals:index.js">
 <path fill="none" stroke="#000000" d="M616,-239C604,-239 598.75,-239 590.125,-239"/>
 <polygon fill="#000000" stroke="#000000" points="590,-235.5001 580,-239 590,-242.5001 590,-235.5001"/>
+</a>
+</g>
 </g>
 </g>
 </svg>

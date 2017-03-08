@@ -4,6 +4,9 @@ cp2cg - converts cpuprofile files to call graphs
 Generates package/module-scoped call graph information based on `.cpuprofile`
 files generated from V8's CPU profiler.
 
+Drag and drop `.cpuprofile` files onto the web app here, for live
+rendering: https://pmuellr.github.io/cp2cg
+
 <img src='https://rawgit.com/pmuellr/cp2cg/master/test/fixtures/express-jade.cpuprofile.svg'>
 
 Generates SVG via [viz.js](https://npmjs.org/package/viz.js).
