@@ -3,44 +3,93 @@ digraph g {
         rankdir = "LR"
     ];
     "(app)" [
-        shape = "record"
-        label = "(app) | <index.js> index.js"
+        shape = "plain"
+        label = <<table border="0" cellspacing="0">
+<tr><td align="left" border="1" cellpadding="8" bgcolor="cadetblue1"><b>(app)</b></td></tr>
+<tr><td port="index.js" align="left" border="1" bgcolor="white">index.js</td></tr>
+</table>>
     ];
     "express" [
-        shape = "record"
-        label = "express | <lib/express.js> lib/express.js | <lib/router/index.js> lib/router/index.js | <lib/router/layer.js> lib/router/layer.js | <lib/middleware/query.js> lib/middleware/query.js | <lib/utils.js> lib/utils.js | <lib/middleware/init.js> lib/middleware/init.js | <lib/router/route.js> lib/router/route.js | <lib/response.js> lib/response.js | <lib/application.js> lib/application.js | <lib/view.js> lib/view.js | <lib/request.js> lib/request.js"
+        shape = "plain"
+        label = <<table border="0" cellspacing="0">
+<tr><td align="left" border="1" cellpadding="8" bgcolor="cadetblue1"><b>express</b></td></tr>
+<tr><td port="lib/express.js" align="left" border="1" bgcolor="white">lib/express.js</td></tr>
+<tr><td port="lib/router/index.js" align="left" border="1" bgcolor="mistyrose">lib/router/index.js</td></tr>
+<tr><td port="lib/router/layer.js" align="left" border="1" bgcolor="white">lib/router/layer.js</td></tr>
+<tr><td port="lib/middleware/query.js" align="left" border="1" bgcolor="white">lib/middleware/query.js</td></tr>
+<tr><td port="lib/utils.js" align="left" border="1" bgcolor="white">lib/utils.js</td></tr>
+<tr><td port="lib/middleware/init.js" align="left" border="1" bgcolor="white">lib/middleware/init.js</td></tr>
+<tr><td port="lib/router/route.js" align="left" border="1" bgcolor="white">lib/router/route.js</td></tr>
+<tr><td port="lib/response.js" align="left" border="1" bgcolor="mistyrose">lib/response.js</td></tr>
+<tr><td port="lib/application.js" align="left" border="1" bgcolor="mistyrose">lib/application.js</td></tr>
+<tr><td port="lib/view.js" align="left" border="1" bgcolor="mistyrose">lib/view.js</td></tr>
+<tr><td port="lib/request.js" align="left" border="1" bgcolor="white">lib/request.js</td></tr>
+</table>>
     ];
     "qs" [
-        shape = "record"
-        label = "qs | <lib/parse.js> lib/parse.js | <lib/utils.js> lib/utils.js"
+        shape = "plain"
+        label = <<table border="0" cellspacing="0">
+<tr><td align="left" border="1" cellpadding="8" bgcolor="cadetblue1"><b>qs</b></td></tr>
+<tr><td port="lib/parse.js" align="left" border="1" bgcolor="white">lib/parse.js</td></tr>
+<tr><td port="lib/utils.js" align="left" border="1" bgcolor="white">lib/utils.js</td></tr>
+</table>>
     ];
     "jade" [
-        shape = "record"
-        label = "jade | <lib/index.js> lib/index.js | <lib/parser.js> lib/parser.js | <lib/lexer.js> lib/lexer.js | <lib/nodes/tag.js> lib/nodes/tag.js | <lib/nodes/block.js> lib/nodes/block.js | <lib/utils.js> lib/utils.js | <lib/compiler.js> lib/compiler.js | <lib/runtime.js> lib/runtime.js"
+        shape = "plain"
+        label = <<table border="0" cellspacing="0">
+<tr><td align="left" border="1" cellpadding="8" bgcolor="cadetblue1"><b>jade</b></td></tr>
+<tr><td port="lib/index.js" align="left" border="1" bgcolor="hotpink">lib/index.js</td></tr>
+<tr><td port="lib/parser.js" align="left" border="1" bgcolor="pink">lib/parser.js</td></tr>
+<tr><td port="lib/lexer.js" align="left" border="1" bgcolor="pink">lib/lexer.js</td></tr>
+<tr><td port="lib/nodes/tag.js" align="left" border="1" bgcolor="white">lib/nodes/tag.js</td></tr>
+<tr><td port="lib/nodes/block.js" align="left" border="1" bgcolor="white">lib/nodes/block.js</td></tr>
+<tr><td port="lib/utils.js" align="left" border="1" bgcolor="white">lib/utils.js</td></tr>
+<tr><td port="lib/compiler.js" align="left" border="1" bgcolor="mistyrose">lib/compiler.js</td></tr>
+<tr><td port="lib/runtime.js" align="left" border="1" bgcolor="white">lib/runtime.js</td></tr>
+</table>>
     ];
     "with" [
-        shape = "record"
-        label = "with | <index.js> index.js"
+        shape = "plain"
+        label = <<table border="0" cellspacing="0">
+<tr><td align="left" border="1" cellpadding="8" bgcolor="cadetblue1"><b>with</b></td></tr>
+<tr><td port="index.js" align="left" border="1" bgcolor="mistyrose">index.js</td></tr>
+</table>>
     ];
     "acorn-globals" [
-        shape = "record"
-        label = "acorn-globals | <index.js> index.js"
+        shape = "plain"
+        label = <<table border="0" cellspacing="0">
+<tr><td align="left" border="1" cellpadding="8" bgcolor="cadetblue1"><b>acorn-globals</b></td></tr>
+<tr><td port="index.js" align="left" border="1" bgcolor="mistyrose">index.js</td></tr>
+</table>>
     ];
     "acorn" [
-        shape = "record"
-        label = "acorn | <dist/acorn.js> dist/acorn.js | <dist/walk.js> dist/walk.js"
+        shape = "plain"
+        label = <<table border="0" cellspacing="0">
+<tr><td align="left" border="1" cellpadding="8" bgcolor="cadetblue1"><b>acorn</b></td></tr>
+<tr><td port="dist/acorn.js" align="left" border="1" bgcolor="magenta">dist/acorn.js</td></tr>
+<tr><td port="dist/walk.js" align="left" border="1" bgcolor="hotpink">dist/walk.js</td></tr>
+</table>>
     ];
     "content-type" [
-        shape = "record"
-        label = "content-type | <index.js> index.js"
+        shape = "plain"
+        label = <<table border="0" cellspacing="0">
+<tr><td align="left" border="1" cellpadding="8" bgcolor="cadetblue1"><b>content-type</b></td></tr>
+<tr><td port="index.js" align="left" border="1" bgcolor="white">index.js</td></tr>
+</table>>
     ];
     "etag" [
-        shape = "record"
-        label = "etag | <index.js> index.js"
+        shape = "plain"
+        label = <<table border="0" cellspacing="0">
+<tr><td align="left" border="1" cellpadding="8" bgcolor="cadetblue1"><b>etag</b></td></tr>
+<tr><td port="index.js" align="left" border="1" bgcolor="mistyrose">index.js</td></tr>
+</table>>
     ];
     "parseurl" [
-        shape = "record"
-        label = "parseurl | <index.js> index.js"
+        shape = "plain"
+        label = <<table border="0" cellspacing="0">
+<tr><td align="left" border="1" cellpadding="8" bgcolor="cadetblue1"><b>parseurl</b></td></tr>
+<tr><td port="index.js" align="left" border="1" bgcolor="white">index.js</td></tr>
+</table>>
     ];
     "(app)":"index.js" -> "express":"lib/router/index.js";
     "(app)":"index.js" -> "express":"lib/response.js";

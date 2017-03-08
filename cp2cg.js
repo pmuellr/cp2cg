@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 'use strict'
 
 exports.cli = cli
@@ -27,6 +29,7 @@ function cli () {
 
   const callGraph = CallGraph.create()
   callGraph.process(cpuProfile.head)
+  callGraph.calculateSelfTime()
 
   const dotContent = callGraph2gv(callGraph)
 
@@ -60,29 +63,22 @@ function callGraph2gv (callGraph) {
   out.push('        rankdir = "LR"')
   out.push('    ];')
 
-  // for (let pkg of callGraph.packages.values()) {
-  //   out.push(`    "${pkg.name}" [`)
-  //   out.push('        shape = "record"')
-  //
-  //   const label = Array.from(pkg.modules.values())
-  //     .map(mod => `<${mod.name}> ${mod.name}`)
-  //
-  //   label.unshift(`${pkg.name}`)
-  //
-  //   out.push(`        label = "${label.join(' | ')}"`)
-  //   out.push('    ];')
-  // }
-
   for (let pkg of callGraph.packages.values()) {
     out.push(`    "${pkg.name}" [`)
-    out.push('        shape = "record"')
+    out.push('        shape = "plain"')
 
-    const label = Array.from(pkg.modules.values())
-      .map(mod => `<${mod.name}> ${mod.name}`)
+    const tdAttrs = 'align="left" border="1"'
+    const thAttrs = `${tdAttrs} cellpadding="8" bgcolor="cadetblue1"`
+    const label = []
+    label.push('<table border="0" cellspacing="0">')
+    label.push(`<tr><td ${thAttrs}><b>${pkg.name}</b></td></tr>`)
+    for (let mod of pkg.modules.values()) {
+      const color = `bgcolor="${selfTimeColor(mod.selfTime)}"`
+      label.push(`<tr><td port="${mod.name}" ${tdAttrs} ${color}>${mod.name}</td></tr>`)
+    }
+    label.push('</table>')
 
-    label.unshift(`${pkg.name}`)
-
-    out.push(`        label = "${label.join(' | ')}"`)
+    out.push(`        label = <${label.join('\n')}>`)
     out.push('    ];')
   }
 
@@ -99,6 +95,20 @@ function callGraph2gv (callGraph) {
   out.push('}')
 
   return out.join('\n')
+}
+
+const Colors = ['white', 'mistyrose', 'pink', 'hotpink', 'magenta', 'orangered', 'orange']
+const ColorsCount = Colors.length
+
+// get color given selfTime
+function selfTimeColor (selfTime) {
+  // 0 < selfTime < 1 ; take sqrt() to bump lower #'s up
+  selfTime = Math.sqrt(selfTime)
+
+  let colorIndex = Math.min(selfTime * ColorsCount, ColorsCount - 1)
+  colorIndex = Math.round(colorIndex)
+
+  return Colors[colorIndex]
 }
 
 // read and parse cpuprofile

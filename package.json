@@ -17,8 +17,9 @@
     "url": "https://github.com/pmuellr/cp2cg/issues"
   },
   "scripts": {
+    "sample": "cd test/fixtures && ../../cp2cg.js express-jade.cpuprofile",
     "standard": "echo 'running standard' && standard -v",
-    "test": "npm -s run utest && npm -s run standard",
+    "test": "npm -s run utest && npm -s run standard && npm -s run sample",
     "utest": "node test/index.js | FORCE_COLOR=1 tap-spec",
     "watch": "nodemon --exec 'npm -s test'"
   },
