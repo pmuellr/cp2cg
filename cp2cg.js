@@ -72,7 +72,11 @@ function callGraph2gv (callGraph) {
     const label = []
     label.push('<table border="0" cellspacing="0">')
     label.push(`<tr><td ${thAttrs}><b>${pkg.name}</b></td></tr>`)
-    for (let mod of pkg.modules.values()) {
+
+    const mods = Array.from(pkg.modules.values())
+    mods.sort((mod1, mod2) => stringCompare(mod1.name, mod2.name))
+
+    for (let mod of mods) {
       const color = `bgcolor="${selfTimeColor(mod.selfTime)}"`
       label.push(`<tr><td port="${mod.name}" ${tdAttrs} ${color}>${mod.name}</td></tr>`)
     }
@@ -95,6 +99,13 @@ function callGraph2gv (callGraph) {
   out.push('}')
 
   return out.join('\n')
+}
+
+// why did I have to write this?
+function stringCompare (s1, s2) {
+  if (s1 < s2) return -1
+  if (s1 > s2) return 1
+  return 0
 }
 
 const Colors = ['white', 'mistyrose', 'pink', 'hotpink', 'magenta', 'orangered', 'orange']
