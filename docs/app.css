@@ -8,20 +8,24 @@ html {
 }
 
 body {
-  margin: 2em;
+  margin: 0.5em;
   padding: 0;
   font-size: 150%;
   font-family: sans-serif;
 }
 
 .icon-top, img {
-  float: right;
+  position: fixed;
+  top: 0;
+  right: 0;
 }
 
-h1 {
+h1.title {
+  margin-top: 0;
 }
 
 .render-box {
   width: 100%;
-  overflow: scroll;
+  overflow: auto;
+  padding: 1em;
 }

@@ -3963,7 +3963,7 @@ function onDrop () {
     if (err) return logger(`error loading ${file.name}: ${err}`)
 
     const cpuProfile = JSON.parse(event.target.result)
-    renderCpuProfile(cpuProfile)
+    renderCpuProfile(file.name, cpuProfile)
   }
 }
 
@@ -3972,11 +3972,11 @@ function renderSample () {
   logger.log('generating sample graph')
 
   const cpuProfile = require('./data/shortish.cpuprofile.json')
-  renderCpuProfile(cpuProfile)
+  renderCpuProfile('shortish.cpuprofile', cpuProfile)
 }
 
 // render a cpu profile object
-function renderCpuProfile (cpuProfile) {
+function renderCpuProfile (fileName, cpuProfile) {
   logger.log('renderCpuProfile: start')
 
   const callGraph = CallGraph.create()
@@ -3987,6 +3987,9 @@ function renderCpuProfile (cpuProfile) {
   const svg = GraphViz(dotContent)
 
   logger.log('renderCpuProfile: done')
+
+  const fileNameDiv = document.querySelectorAll('.file-name')[0]
+  fileNameDiv.innerText = fileName
 
   const renderBox = document.querySelectorAll('.render-box')[0]
   renderBox.innerHTML = svg

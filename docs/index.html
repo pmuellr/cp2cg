@@ -15,13 +15,21 @@
     ondrop="ct2cgOnDrop()"
     >
 
-    <div class="icon-top"><img width="64" src="images/cp2cg.png"></div>
+    <div class="icon-top">
+      <a href="https://github.com/pmuellr/cp2cg">
+        <img width="64" src="images/cp2cg.png">
+      </a>
+    </div>
 
-    <h1>ct2cg - cpuprofile to call graph</h1>
+    <h1 class="title">cp2cg - cpuprofile to call graph</h1>
 
     <p>
       Convert a V8 <tt>.cpuprofile</tt> file to a package/module-scoped
-      call graph.  For more info, visit the GitHub repo
+      call graph.
+    </p>
+
+    <p>
+      For more info, visit the GitHub repo
       <tt><a href="https://github.com/pmuellr/cp2cg">https://github.com/pmuellr/cp2cg</a></tt>
     </p>
 
@@ -30,8 +38,14 @@
       call graph rendered, like the sample below.
     </p>
 
-    <div class="render-box">
+    <hr>
+
+    <div>
+      file:
+      <tt><b><span class="file-name"></span></b></tt>
     </div>
+
+    <div class="render-box"></div>
 
     <script src="viz.js"></script>
     <script src="app.js"></script>
