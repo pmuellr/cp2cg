@@ -1,6 +1,9 @@
 {
   "ext": "js,json",
   "ignore": [
-    "tmp/"
+    "tmp/",
+    "docs/app.js",
+    "docs/app.js.map.json",
+    "docs/viz.js"
   ]
 }

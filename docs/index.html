@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color"      content="#7BAFD4" />
+    <link rel="shortcut icon"     href="images/cp2cg.png" />
+    <link href="app.css" rel="stylesheet">
+    <title>cp2cg web app</title>
+  </head>
+  <body
+    ondragenter="ct2cgOnDragEnter()"
+    ondragover="ct2cgOnDragOver()"
+    ondrop="ct2cgOnDrop()"
+    >
+
+    <div class="icon-top"><img width="64" src="images/cp2cg.png"></div>
+
+    <h1>ct2cg - cpuprofile to call graph</h1>
+
+    <p>
+      Convert a V8 <tt>.cpuprofile</tt> file to a package/module-scoped
+      call graph.  For more info, visit the GitHub repo
+      <tt><a href="https://github.com/pmuellr/cp2cg">https://github.com/pmuellr/cp2cg</a></tt>
+    </p>
+
+    <p>
+      Drop a <tt>.cpuprofile</tt> file on this page to have it's
+      call graph rendered, like the sample below.
+    </p>
+
+    <div class="render-box">
+    </div>
+
+    <script src="viz.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

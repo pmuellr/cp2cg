@@ -10,7 +10,7 @@ const utils = require('../../lib/utils')
 // Returns a function which takes a test function, which takes a standard `t`
 // tape object as a parameter.
 function createTestRunner (sourceFile) {
-  sourceFile = utils.getProjectPath(sourceFile)
+  sourceFile = utils.projectPath(sourceFile)
 
   return function testRunner (testFunction) {
     const testName = `${sourceFile} - ${testFunction.name}()`
