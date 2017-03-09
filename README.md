@@ -7,7 +7,10 @@ files generated from V8's CPU profiler.
 Drag and drop `.cpuprofile` files onto the web app here, for live
 rendering: https://pmuellr.github.io/cp2cg
 
-<img src='https://rawgit.com/pmuellr/cp2cg/master/test/fixtures/express-jade.cpuprofile.svg'>
+Here's a sample usage of the web app, dropping a `.cpuprofile` file downloaded
+from [N|Solid](https://nodesource.com/products/nsolid):
+
+![using cp2cg with N|Solid](docs/images/cp2cg-nsolid.gif)
 
 Generates SVG via [viz.js](https://npmjs.org/package/viz.js).
 
